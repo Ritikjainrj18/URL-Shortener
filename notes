@@ -1,0 +1,10 @@
+docker-compose up -d 
+docker-compoe down
+docker ps
+docker-compoe logs
+
+
+
+i am running my api built in the dokcer and redis in docker 
+once i build the api then making chnages will not be affeeced on doing docker-compose up -d   {i changed the env from localhost to db it was not building again}
+so run docker-compose --build
